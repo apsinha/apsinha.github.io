@@ -15,10 +15,10 @@ export default function Home() {
             Hi, I'm <span className="text-primary">Aparna</span>
           </h1>
           <p className="text-xl text-muted-foreground">
-            I love brainstorming, defining and delivering products using the latest technologies to unlock new
-            capabilities people didn't have before. I'm usually working with founders, researchers, PMs, designers,
-            sales and support teams to generate ideas and create solutions. I've worked at Google, PearVC and with many
-            amazing startups and enterprises, and am particularly familiar with Open Source and platform software.
+            I like to ship! Building on the latest technologies to get new solutions to users is where it starts. 
+            Getting their feedback, tailoring products to their needs for fun and profit!
+            I'm usually working with users, founders, researchers, PMs, design,
+            sales and support! Good requirements can come from anywhere! Experience at Google, PearVC, CapitalOne etc.
           </p>
           <div className="flex gap-4">
             <Button asChild>
@@ -113,7 +113,7 @@ export default function Home() {
               LinkedIn
             </Link>
             <Link
-              href="https://twitter.com/aparnasinha"
+              href="https://twitter.com/aparnabsinha"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground"
               target="_blank"
               rel="noopener noreferrer"
