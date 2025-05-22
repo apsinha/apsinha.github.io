@@ -1,5 +1,3 @@
-"use client"
-
 // This is a simple mock implementation for blog posts
 // In a real project, you would use a library like contentlayer or a CMS
 
@@ -52,8 +50,52 @@ const posts: Post[] = [
     title: "From Kubernetes to Generative AI: The Evolution of Platform Engineering",
     date: "2024-02-05",
     excerpt: "Reflecting on how lessons from cloud native infrastructure can inform our approach to AI platforms.",
-    content:
-      "# From Kubernetes to Generative AI: The Evolution of Platform Engineering\n\nThe rapid rise of generative AI has created a new frontier for platform engineering. As someone who worked on Kubernetes and container platforms before moving into AI, I've been struck by both the parallels and the differences between these domains.\n\n## Lessons from Kubernetes That Apply to AI\n\n### 1. Abstraction Levels Matter\n\nKubernetes succeeded because it found the right level of abstraction - high enough to hide infrastructure complexity, but low enough to be flexible. AI platforms face a similar challenge: they need to abstract away model complexity while allowing sufficient customization.\n\nJust as Kubernetes uses concepts like pods and deployments, successful AI platforms need intuitive abstractions that make sense to their users - whether that's prompt templates, model configurations, or evaluation frameworks.\n\n### 2. The Power of Declarative Interfaces\n\nKubernetes' declarative approach - specifying desired state rather than procedures - has proven incredibly powerful. This same pattern works well for AI systems, where specifying what you want (the objective) often works better than detailing how to get there (the implementation).\n\n### 3. The Importance of Community\n\nThe Kubernetes ecosystem thrived because of its vibrant community. Similarly, the most successful AI platforms will be those that foster communities of contributors and users, creating a virtuous cycle of improvement and adoption.\n\n## Where AI Platforms Differ\n\nDespite these parallels, AI platforms present unique challenges:\n\n### 1. Data Centricity\n\nWhile Kubernetes is primarily concerned with compute resources, AI platforms are fundamentally about data - its collection, preparation, and governance. This centrality of data represents a significant shift in platform design priorities.\n\n### 2. Model Opacity\n\nUnlike containers, which execute deterministic code, AI models (especially large neural networks) are inherently opaque. This creates new challenges for debugging, explaining, and ensuring fairness in platform outputs.\n\n### 3. Human-AI Collaboration\n\nAI platforms aren't just about running models; they're about facilitating collaboration between humans and AI systems. This introduces UX considerations that weren't as central to infrastructure platforms.\n\n## Building the Next Generation of AI Platforms\n\nAs we design the next generation of AI platforms, we should carry forward the best lessons from the cloud native era while acknowledging the unique aspects of AI systems:\n\n- **Emphasize observability**: Make the black box of AI as transparent as possible\n- **Design for iteration**: Enable rapid experimentation and learning\n- **Build in guardrails**: Incorporate safety and ethics from the ground up\n- **Focus on productivity**: Measure success by how much the platform amplifies human capabilities\n\nThe transition from infrastructure to AI represents a shift from managing machines to augmenting human intelligence - a profound evolution in how we think about platforms and their purpose.",
+    content: `# From Kubernetes to Generative AI: The Evolution of Platform Engineering
+
+The rapid rise of generative AI has created a new frontier for platform engineering. As someone who worked on Kubernetes and container platforms before moving into AI, I've been struck by both the parallels and the differences between these domains.
+
+## Lessons from Kubernetes That Apply to AI
+
+### 1. Abstraction Levels Matter
+
+Kubernetes succeeded because it found the right level of abstraction - high enough to hide infrastructure complexity, but low enough to be flexible. AI platforms face a similar challenge: they need to abstract away model complexity while allowing sufficient customization.
+
+Just as Kubernetes uses concepts like pods and deployments, successful AI platforms need intuitive abstractions that make sense to their users - whether that's prompt templates, model configurations, or evaluation frameworks.
+
+### 2. The Power of Declarative Interfaces
+
+Kubernetes' declarative approach - specifying desired state rather than procedures - has proven incredibly powerful. This same pattern works well for AI systems, where specifying what you want (the objective) often works better than detailing how to get there (the implementation).
+
+### 3. The Importance of Community
+
+The Kubernetes ecosystem thrived because of its vibrant community. Similarly, the most successful AI platforms will be those that foster communities of contributors and users, creating a virtuous cycle of improvement and adoption.
+
+## Where AI Platforms Differ
+
+Despite these parallels, AI platforms present unique challenges:
+
+### 1. Data Centricity
+
+While Kubernetes is primarily concerned with compute resources, AI platforms are fundamentally about data - its collection, preparation, and governance. This centrality of data represents a significant shift in platform design priorities.
+
+### 2. Model Opacity
+
+Unlike containers, which execute deterministic code, AI models (especially large neural networks) are inherently opaque. This creates new challenges for debugging, explaining, and ensuring fairness in platform outputs.
+
+### 3. Human-AI Collaboration
+
+AI platforms aren't just about running models; they're about facilitating collaboration between humans and AI systems. This introduces UX considerations that weren't as central to infrastructure platforms.
+
+## Building the Next Generation of AI Platforms
+
+As we design the next generation of AI platforms, we should carry forward the best lessons from the cloud native era while acknowledging the unique aspects of AI systems:
+
+- **Emphasize observability**: Make the black box of AI as transparent as possible
+- **Design for iteration**: Enable rapid experimentation and learning
+- **Build in guardrails**: Incorporate safety and ethics from the ground up
+- **Focus on productivity**: Measure success by how much the platform amplifies human capabilities
+
+The transition from infrastructure to AI represents a shift from managing machines to augmenting human intelligence - a profound evolution in how we think about platforms and their purpose.`,
     tags: ["Kubernetes", "Platform Engineering", "Generative AI", "Cloud Native"],
     readingTime: 7,
   },

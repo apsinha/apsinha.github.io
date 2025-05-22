@@ -5,10 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
-  // Disable server-only features when exporting
-  experimental: {
-    appDir: true,
-  },
+  // App directory is enabled by default in Next.js 15
   eslint: {
     ignoreDuringBuilds: true,
   },
